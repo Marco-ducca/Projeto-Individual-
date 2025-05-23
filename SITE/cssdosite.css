@@ -10,66 +10,114 @@ body {
 }
 
 header {
-    height: 15%;
-    background-color: rgba(58, 58, 67, 0.795);
+    height: 10%;
+    background-color: rgb(80, 64, 54);
 }
 
-nav {
-    height: 3%;
-    width: 100%;
-    background-color: red;
-    align-items: center;
-    margin: 0% 0%;
-    text-align: center;
-}
+
+
 
 .titulo-entrada {
     width: 100%;
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
-    text-decoration: underline;
     align-content: center;
     text-align: center;
     margin: 0%;
     font-size: 2em;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
+.titulo-entrada > strong {
+    font-size: 2em;
+}
+
+
+nav {
+    height: 3%;
+    width: 100%;
+    background-color: rgb(56, 54, 54);
+    align-items: center;
+    margin: 0% 0%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 5px 20px 55px, rgba(0, 0, 0, 0.12) 13px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 11px 6px 13px, rgba(0, 0, 0, 0.09) 4px 3px 5px;
+}
+
+nav > a {
+    font-size: 1.5em;
+    height: 100%;
+    text-align: center;
+}
 main {
+    background-image: url(../IMAGEM/background\ tela\ inicial.png);
     height: 100%;
     display: flex;
-    justify-content: space-around
-}
-main > a {
-    margin: 0%;
+    justify-content: space-around;
+    background-size: cover;
+    background-position: center;
 }
 
 article {
-    margin-top: 3%;
-    background-color: rgb(50, 52, 47);
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    background-color: rgb(82, 69, 54);
+    width: 20%;
     height: 70%;
     text-align: center;
-    justify-content: center;
-    color: antiquewhite;
-    border-radius: 6%;
-    border: 2px;
+    color: rgb(0, 0, 0);
+    border-radius: 4%;
+    border: 3px;
     border-style: solid;
     border-color: aqua;
+    font-size: 1.5em;
 }
 
-article > h2 {
-    margin: 0%;
+.inputlogin {
+    height: 3%;
+    margin: 0% 8%;
+    align-items: center;
 }
 
-article > p {
-    margin: 0%;
-    text-align: center;
+ .cadastro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.664)), url(../IMAGEM/foto\ fundo\ login\ e\ cadastro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .logar {
+    text-decoration: none;
+    color: rgb(30, 149, 218);
+  }
+
+.textoh2entrada {
+    color: rgb(30, 149, 218);
+    padding: 10% 2%;
+    height: 20%;
+    font-size: 1.5em;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 
+.textoh2entradaB {
+    color: rgb(30, 149, 218);
+    padding: 10% 2%;
+    height: 5%;
+    font-size: 1.5em;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.textochamativo{
+    margin: 10% 2% 2% 3%;
+    font-size: 70%;
+    color: bisque;
+}
 .link {
 text-decoration: none;
-color: rgb(250, 235, 215);
+color: rgb(21, 155, 218);
+font-size: 1.5em;
 }
-.cadastro {
-background-image: url(../IMAGEM/)
-}
+
